@@ -1,0 +1,61 @@
+.Kubic{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+}
+.Kubic:hover{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: KUBIK 0.5s 1s;
+}
+@keyframes KUBIK {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+.loading img{
+    width: 150px;
+    height: 150px;
+    animation: loading 1s 2.5s infinite;
+}
+.loading {
+    margin: 50px;
+}
+@keyframes loading {
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+        rotate: 180deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+.Krug{
+    border: 1px solid black;
+    width: 1250px;
+    height: 250px;
+    background-color: red;
+    
+}
+
+.Krug img{
+    animation: krug 1s infinite;
+    margin: 10px;
+}
+@keyframes krug {
+    0%{
+       margin-left: 0px;
+    }
+    50%{
+        margin-left: 1000px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
